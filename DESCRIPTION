@@ -1,13 +1,15 @@
 Package: regexcite
-Title: Example Package
+Title: Make Regular Expressions More Exciting
 Version: 0.0.0.9000
 Authors@R: 
-    person("Noah", "Nayve", "nnayve@calpoly.edu", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Noah", "Nayve", email = "nnayve@calpoly.edu", role = c("aut", "cre"))
+Description: Convenience functions to make some common tasks with string manipulation and regular expressions a bit easier.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 URL: https://github.com/nnayve28/regexcite
 BugReports: https://github.com/nnayve28/regexcite/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
